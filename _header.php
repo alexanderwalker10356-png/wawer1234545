@@ -11,15 +11,17 @@ if (!isset($page_type)) $page_type = 'website';
 if (!isset($schema_type)) $schema_type = 'WebSite';
 if (!isset($breadcrumbs)) $breadcrumbs = [];
 
-$nav_items = [
-    'index.php' => 'Accueil',
-    'operators.php' => 'Opérateurs',
-    'technology.php' => 'Technologies',
-    'privacy.php' => 'Confidentialité',
+$lang = isset($page_lang) ? $page_lang : 'fr';
+
+$nav_labels = [
+    'fr' => ['index.php' => 'Accueil', 'operators.php' => 'Opérateurs', 'technology.php' => 'Technologies', 'privacy.php' => 'Confidentialité'],
+    'en' => ['index.php' => 'Home', 'operators.php' => 'Operators', 'technology.php' => 'Technologies', 'privacy.php' => 'Privacy'],
+    'ar' => ['index.php' => 'الرئيسية', 'operators.php' => 'المشغّلون', 'technology.php' => 'التقنيات', 'privacy.php' => 'الخصوصية'],
 ];
+$nav_items = isset($nav_labels[$lang]) ? $nav_labels[$lang] : $nav_labels['fr'];
 ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="<?php echo $lang; ?>"<?php echo ($lang === 'ar') ? ' dir="rtl"' : ''; ?>>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -268,7 +270,7 @@ $nav_items = [
                     "@type": "Organization",
                     "name": "<?php echo $site_name; ?>"
                 },
-                "inLanguage": "fr",
+                "inLanguage": "<?php echo $lang; ?>",
                 "datePublished": "2025-09-15",
                 "dateModified": "2026-10-10"
             }
@@ -316,8 +318,6 @@ $nav_items = [
             </nav>
             <div class="lang-switch">
                 <?php
-                $lang = isset($page_lang) ? $page_lang : 'fr';
-                $lang_prefix = ($lang === 'fr') ? '' : $lang . '/';
                 $fr_link = ($lang === 'fr') ? $current_page : '../' . $current_page;
                 $en_link = ($lang === 'en') ? $current_page : (($lang === 'fr') ? 'en/' . $current_page : '../en/' . $current_page);
                 $ar_link = ($lang === 'ar') ? $current_page : (($lang === 'fr') ? 'ar/' . $current_page : '../ar/' . $current_page);
