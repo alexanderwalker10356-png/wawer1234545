@@ -4,7 +4,7 @@
             <div style="flex:1;min-width:200px;">
                 <div style="font-weight:700;color:#e8e8f0;margin-bottom:8px;"><?php echo $site_name; ?></div>
                 <p style="margin:0 0 4px;color:#8888a0;">Независимый информационный ресурс о телекоммуникациях в Марокко.</p>
-                <p style="margin:0;color:#8888a0;">info@<?php echo $site_domain; ?></p>
+                <p style="margin:0;color:#8888a0;">adam.henderson62464@gmail.com</p>
             </div>
             <div style="flex:0 0 auto;">
                 <div style="font-weight:600;color:#b0b0c8;margin-bottom:8px;">Разделы</div>

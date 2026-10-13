@@ -239,7 +239,7 @@ $nav_items = [
                 "url": "<?php echo $base_url; ?>",
                 "contactPoint": {
                     "@type": "ContactPoint",
-                    "email": "info@<?php echo $site_domain; ?>",
+                    "email": "adam.henderson62464@gmail.com",
                     "contactType": "customer support"
                 }
             }
