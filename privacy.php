@@ -5,13 +5,13 @@ header('X-Content-Type-Options: nosniff');
 header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
-$page_title = 'Политика конфиденциальности — Telecom Maroc Guide';
-$page_description = 'Политика конфиденциальности сайта Telecom Maroc Guide: обработка персональных данных, cookie, права пользователей, GDPR и CCPA.';
+$page_title = 'Politique de confidentialité — Telecom Maroc Guide';
+$page_description = 'Politique de confidentialité du site Telecom Maroc Guide : traitement des données personnelles, cookies, droits des utilisateurs, RGPD et CCPA.';
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
-    ['name' => 'Главная', 'url' => 'https://maroctelecomguide.world/index.php'],
-    ['name' => 'Политика конфиденциальности', 'url' => 'https://maroctelecomguide.world/privacy.php'],
+    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
+    ['name' => 'Confidentialité', 'url' => 'https://maroctelecomguide.world/privacy.php'],
 ];
 
 require '_header.php';
@@ -19,96 +19,96 @@ require '_header.php';
 
 <article>
     <nav class="breadcrumb">
-        <a href="index.php">Главная</a><span class="sep">/</span><span>Политика конфиденциальности</span>
+        <a href="index.php">Accueil</a><span class="sep">/</span><span>Confidentialité</span>
     </nav>
 
-    <h1>Политика конфиденциальности</h1>
-    <p class="last-updated">Дата вступления в силу: 15 сентября 2025 г.</p>
+    <h1>Politique de confidentialité</h1>
+    <p class="last-updated">Date d'entrée en vigueur : 15 septembre 2025</p>
 
-    <p>Настоящая Политика конфиденциальности описывает, каким образом веб-сайт Telecom Maroc Guide (далее &mdash; «Сайт», «мы») осуществляет сбор, использование и защиту информации, которую пользователи (далее &mdash; «вы», «пользователь») предоставляют при посещении Сайта.</p>
+    <p>La présente Politique de confidentialité décrit la manière dont le site Telecom Maroc Guide (ci-après « le Site », « nous ») collecte, utilise et protège les informations que les utilisateurs (ci-après « vous », « l'utilisateur ») fournissent lors de leur visite sur le Site.</p>
 
-    <h2>1. Какую информацию мы собираем</h2>
+    <h2>1. Informations collectées</h2>
 
-    <p>Сайт является информационным ресурсом и не требует регистрации, создания учётной записи или предоставления персональных данных для доступа к контенту. Мы можем автоматически собирать следующую техническую информацию:</p>
-
-    <ul>
-        <li>IP-адрес посетителя.</li>
-        <li>Тип и версия браузера.</li>
-        <li>Операционная система устройства.</li>
-        <li>Страницы Сайта, которые вы посещаете, и время посещения.</li>
-        <li>Источник перехода (referrer URL).</li>
-    </ul>
-
-    <p>Эта информация используется исключительно для обеспечения корректной работы Сайта и анализа посещаемости в обобщённом виде.</p>
-
-    <h2>2. Файлы cookie</h2>
-
-    <p>Сайт может использовать технически необходимые файлы cookie для обеспечения корректной работы. Мы не используем рекламные cookie, cookie для отслеживания (tracking cookies) или cookie третьих сторон.</p>
-
-    <p>Технически необходимые cookie могут включать:</p>
+    <p>Le Site est une ressource informative et ne nécessite ni inscription, ni création de compte, ni fourniture de données personnelles pour accéder au contenu. Nous pouvons collecter automatiquement les informations techniques suivantes :</p>
 
     <ul>
-        <li>Идентификатор сессии для корректной работы серверной части.</li>
-        <li>Настройки отображения (если применимо).</li>
+        <li>Adresse IP du visiteur.</li>
+        <li>Type et version du navigateur.</li>
+        <li>Système d'exploitation de l'appareil.</li>
+        <li>Pages du Site visitées et durée de la visite.</li>
+        <li>URL de provenance (referrer).</li>
     </ul>
 
-    <p>Вы можете отключить cookie в настройках вашего браузера. Отключение cookie не повлияет на доступ к содержимому Сайта.</p>
+    <p>Ces informations sont utilisées exclusivement pour assurer le bon fonctionnement du Site et analyser la fréquentation de manière agrégée.</p>
 
-    <h2>3. Использование информации</h2>
+    <h2>2. Cookies</h2>
 
-    <p>Собранная техническая информация может использоваться для:</p>
+    <p>Le Site peut utiliser des cookies techniquement nécessaires pour assurer son bon fonctionnement. Nous n'utilisons pas de cookies publicitaires, de cookies de suivi (tracking cookies) ni de cookies tiers.</p>
+
+    <p>Les cookies techniquement nécessaires peuvent inclure :</p>
 
     <ul>
-        <li>Обеспечения работоспособности и безопасности Сайта.</li>
-        <li>Анализа посещаемости в обобщённом (агрегированном) виде.</li>
-        <li>Выявления и предотвращения технических проблем.</li>
+        <li>Identifiant de session pour le bon fonctionnement de la partie serveur.</li>
+        <li>Paramètres d'affichage (le cas échéant).</li>
     </ul>
 
-    <p>Мы не продаём, не передаём и не раскрываем персональные данные третьим лицам, за исключением случаев, предусмотренных законодательством.</p>
+    <p>Vous pouvez désactiver les cookies dans les paramètres de votre navigateur. La désactivation des cookies n'affectera pas l'accès au contenu du Site.</p>
 
-    <h2>4. Права пользователей в соответствии с GDPR</h2>
+    <h2>3. Utilisation des informations</h2>
 
-    <p>Если вы являетесь резидентом Европейского союза или Европейской экономической зоны, вы обладаете следующими правами в отношении ваших персональных данных:</p>
+    <p>Les informations techniques collectées peuvent être utilisées pour :</p>
 
     <ul>
-        <li><strong>Право на доступ</strong> &mdash; вы вправе запросить информацию о том, какие данные о вас обрабатываются.</li>
-        <li><strong>Право на исправление</strong> &mdash; вы вправе потребовать исправления неточных данных.</li>
-        <li><strong>Право на удаление</strong> &mdash; вы вправе потребовать удаления ваших персональных данных.</li>
-        <li><strong>Право на ограничение обработки</strong> &mdash; вы вправе потребовать ограничения обработки ваших данных в определённых случаях.</li>
-        <li><strong>Право на переносимость данных</strong> &mdash; вы вправе запросить предоставление ваших данных в структурированном формате.</li>
-        <li><strong>Право на возражение</strong> &mdash; вы вправе возражать против обработки ваших данных.</li>
+        <li>Assurer le fonctionnement et la sécurité du Site.</li>
+        <li>Analyser la fréquentation de manière agrégée.</li>
+        <li>Détecter et prévenir les problèmes techniques.</li>
     </ul>
 
-    <p>Для реализации этих прав направьте запрос на адрес adam.henderson62464@gmail.com.</p>
+    <p>Nous ne vendons, ne transférons et ne divulguons pas de données personnelles à des tiers, sauf dans les cas prévus par la loi.</p>
 
-    <h2>5. Права пользователей в соответствии с CCPA</h2>
+    <h2>4. Droits des utilisateurs conformément au RGPD</h2>
 
-    <p>Если вы являетесь резидентом штата Калифорния (США), Закон о защите конфиденциальности потребителей Калифорнии (CCPA) предоставляет вам следующие права:</p>
+    <p>Si vous êtes résident de l'Union européenne ou de l'Espace économique européen, vous disposez des droits suivants concernant vos données personnelles :</p>
 
     <ul>
-        <li>Право знать, какие категории персональных данных собираются и с какой целью.</li>
-        <li>Право на удаление собранных персональных данных.</li>
-        <li>Право на отказ от продажи персональных данных. Мы не продаём персональные данные.</li>
-        <li>Право на недискриминацию при реализации своих прав.</li>
+        <li><strong>Droit d'accès</strong> — vous pouvez demander des informations sur les données vous concernant qui sont traitées.</li>
+        <li><strong>Droit de rectification</strong> — vous pouvez demander la correction de données inexactes.</li>
+        <li><strong>Droit à l'effacement</strong> — vous pouvez demander la suppression de vos données personnelles.</li>
+        <li><strong>Droit à la limitation du traitement</strong> — vous pouvez demander la limitation du traitement de vos données dans certains cas.</li>
+        <li><strong>Droit à la portabilité des données</strong> — vous pouvez demander que vos données vous soient fournies dans un format structuré.</li>
+        <li><strong>Droit d'opposition</strong> — vous pouvez vous opposer au traitement de vos données.</li>
     </ul>
 
-    <p>Для реализации этих прав направьте запрос на адрес info@maroctelecomguide.world.</p>
+    <p>Pour exercer ces droits, adressez votre demande à adam.henderson62464@gmail.com.</p>
 
-    <h2>6. Защита данных</h2>
+    <h2>5. Droits des utilisateurs conformément au CCPA</h2>
 
-    <p>Мы принимаем разумные технические и организационные меры для защиты информации, которую мы обрабатываем. Однако ни один метод передачи данных через интернет или метод электронного хранения не является абсолютно безопасным.</p>
+    <p>Si vous êtes résident de l'État de Californie (États-Unis), la loi californienne sur la protection de la vie privée des consommateurs (CCPA) vous confère les droits suivants :</p>
 
-    <h2>7. Ссылки на сторонние ресурсы</h2>
+    <ul>
+        <li>Droit de savoir quelles catégories de données personnelles sont collectées et dans quel but.</li>
+        <li>Droit à la suppression des données personnelles collectées.</li>
+        <li>Droit de refuser la vente de données personnelles. Nous ne vendons pas de données personnelles.</li>
+        <li>Droit à la non-discrimination dans l'exercice de vos droits.</li>
+    </ul>
 
-    <p>Сайт не содержит ссылок на сторонние ресурсы. В случае если такие ссылки будут добавлены в будущем, мы не несём ответственности за политику конфиденциальности сторонних веб-сайтов.</p>
+    <p>Pour exercer ces droits, adressez votre demande à adam.henderson62464@gmail.com.</p>
 
-    <h2>8. Изменения в политике</h2>
+    <h2>6. Protection des données</h2>
 
-    <p>Мы оставляем за собой право вносить изменения в настоящую Политику конфиденциальности. Актуальная версия всегда доступна на данной странице. Дата последнего обновления указана в начале документа.</p>
+    <p>Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger les informations que nous traitons. Toutefois, aucune méthode de transmission de données sur Internet ni aucune méthode de stockage électronique n'est totalement sécurisée.</p>
 
-    <h2>9. Контактная информация</h2>
+    <h2>7. Liens vers des ressources tierces</h2>
 
-    <p>По вопросам, связанным с настоящей Политикой конфиденциальности, вы можете обратиться по адресу электронной почты: adam.henderson62464@gmail.com.</p>
+    <p>Le Site ne contient pas de liens vers des ressources tierces. Si de tels liens venaient à être ajoutés à l'avenir, nous ne saurions être tenus responsables de la politique de confidentialité des sites tiers.</p>
+
+    <h2>8. Modifications de la politique</h2>
+
+    <p>Nous nous réservons le droit de modifier la présente Politique de confidentialité. La version actuelle est toujours disponible sur cette page. La date de la dernière mise à jour est indiquée en début de document.</p>
+
+    <h2>9. Coordonnées</h2>
+
+    <p>Pour toute question relative à la présente Politique de confidentialité, vous pouvez nous contacter par e-mail : adam.henderson62464@gmail.com.</p>
 </article>
 
 <?php require '_footer.php'; ?>

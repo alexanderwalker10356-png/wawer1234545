@@ -5,21 +5,21 @@ $current_page = basename($_SERVER['PHP_SELF']);
 $base_url = 'https://' . $site_domain;
 
 if (!isset($page_title)) $page_title = $site_name;
-if (!isset($page_description)) $page_description = 'Информационный справочник о мобильной связи и телекоммуникациях в Марокко';
+if (!isset($page_description)) $page_description = 'Guide informatif sur les télécommunications mobiles au Maroc';
 if (!isset($page_canonical)) $page_canonical = $base_url . '/' . $current_page;
 if (!isset($page_type)) $page_type = 'website';
 if (!isset($schema_type)) $schema_type = 'WebSite';
 if (!isset($breadcrumbs)) $breadcrumbs = [];
 
 $nav_items = [
-    'index.php' => 'Главная',
-    'operators.php' => 'Операторы',
-    'technology.php' => 'Технологии',
-    'privacy.php' => 'Политика конфиденциальности',
+    'index.php' => 'Accueil',
+    'operators.php' => 'Opérateurs',
+    'technology.php' => 'Technologies',
+    'privacy.php' => 'Confidentialité',
 ];
 ?>
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -194,6 +194,21 @@ $nav_items = [
             color: #718096;
             margin-bottom: 24px;
         }
+        .lang-switch {
+            display: flex;
+            gap: 4px;
+            margin-left: 12px;
+        }
+        .lang-switch a {
+            color: #8888a0;
+            font-size: 0.8rem;
+            padding: 4px 8px;
+            border-radius: 4px;
+            text-decoration: none;
+            border: 1px solid rgba(255,255,255,0.15);
+        }
+        .lang-switch a:hover { background: rgba(255,255,255,0.08); color: #fff; text-decoration: none; }
+        .lang-switch a.active-lang { background: rgba(255,255,255,0.15); color: #fff; font-weight: 600; }
 
         @media (max-width: 768px) {
             .nav-toggle { display: block; }
@@ -253,7 +268,7 @@ $nav_items = [
                     "@type": "Organization",
                     "name": "<?php echo $site_name; ?>"
                 },
-                "inLanguage": "ru",
+                "inLanguage": "fr",
                 "datePublished": "2025-09-15",
                 "dateModified": "2026-10-10"
             }
@@ -299,6 +314,18 @@ $nav_items = [
                     <a href="<?php echo $file; ?>"<?php echo ($current_page === $file) ? ' class="active"' : ''; ?>><?php echo $label; ?></a>
                 <?php endforeach; ?>
             </nav>
+            <div class="lang-switch">
+                <?php
+                $lang = isset($page_lang) ? $page_lang : 'fr';
+                $lang_prefix = ($lang === 'fr') ? '' : $lang . '/';
+                $fr_link = ($lang === 'fr') ? $current_page : '../' . $current_page;
+                $en_link = ($lang === 'en') ? $current_page : (($lang === 'fr') ? 'en/' . $current_page : '../en/' . $current_page);
+                $ar_link = ($lang === 'ar') ? $current_page : (($lang === 'fr') ? 'ar/' . $current_page : '../ar/' . $current_page);
+                ?>
+                <a href="<?php echo $fr_link; ?>"<?php echo ($lang === 'fr') ? ' class="active-lang"' : ''; ?>>FR</a>
+                <a href="<?php echo $en_link; ?>"<?php echo ($lang === 'en') ? ' class="active-lang"' : ''; ?>>EN</a>
+                <a href="<?php echo $ar_link; ?>"<?php echo ($lang === 'ar') ? ' class="active-lang"' : ''; ?>>AR</a>
+            </div>
         </div>
     </header>
     <main class="container">
