@@ -11,8 +11,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Операторы мобильной связи в Марокко';
 $breadcrumbs = [
-    ['name' => 'Главная', 'url' => 'https://telecommarocguide.info/index.php'],
-    ['name' => 'Операторы', 'url' => 'https://telecommarocguide.info/operators.php'],
+    ['name' => 'Главная', 'url' => 'https://maroctelecomguide.world/index.php'],
+    ['name' => 'Операторы', 'url' => 'https://maroctelecomguide.world/operators.php'],
 ];
 
 require '_header.php';

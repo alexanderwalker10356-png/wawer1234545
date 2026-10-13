@@ -11,8 +11,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Технологии и стандарты связи в Марокко';
 $breadcrumbs = [
-    ['name' => 'Главная', 'url' => 'https://telecommarocguide.info/index.php'],
-    ['name' => 'Технологии', 'url' => 'https://telecommarocguide.info/technology.php'],
+    ['name' => 'Главная', 'url' => 'https://maroctelecomguide.world/index.php'],
+    ['name' => 'Технологии', 'url' => 'https://maroctelecomguide.world/technology.php'],
 ];
 
 require '_header.php';

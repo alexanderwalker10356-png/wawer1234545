@@ -11,7 +11,7 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Мобильная связь в Марокко: обзор';
 $breadcrumbs = [
-    ['name' => 'Главная', 'url' => 'https://telecommarocguide.info/index.php'],
+    ['name' => 'Главная', 'url' => 'https://maroctelecomguide.world/index.php'],
 ];
 
 require '_header.php';

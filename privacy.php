@@ -10,8 +10,8 @@ $page_description = 'Политика конфиденциальности са�
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
-    ['name' => 'Главная', 'url' => 'https://telecommarocguide.info/index.php'],
-    ['name' => 'Политика конфиденциальности', 'url' => 'https://telecommarocguide.info/privacy.php'],
+    ['name' => 'Главная', 'url' => 'https://maroctelecomguide.world/index.php'],
+    ['name' => 'Политика конфиденциальности', 'url' => 'https://maroctelecomguide.world/privacy.php'],
 ];
 
 require '_header.php';
@@ -92,7 +92,7 @@ require '_header.php';
         <li>Право на недискриминацию при реализации своих прав.</li>
     </ul>
 
-    <p>Для реализации этих прав направьте запрос на адрес info@telecommarocguide.info.</p>
+    <p>Для реализации этих прав направьте запрос на адрес info@maroctelecomguide.world.</p>
 
     <h2>6. Защита данных</h2>
 

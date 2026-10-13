@@ -1,6 +1,6 @@
 <?php
 $site_name = 'Telecom Maroc Guide';
-$site_domain = 'telecommarocguide.info';
+$site_domain = 'maroctelecomguide.world';
 $current_page = basename($_SERVER['PHP_SELF']);
 $base_url = 'https://' . $site_domain;
 
