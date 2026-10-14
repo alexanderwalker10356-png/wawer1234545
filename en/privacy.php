@@ -6,8 +6,8 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Data Protection Policy — Telecom Maroc Guide';
-$page_description = 'Data Protection Policy of Telecom Maroc Guide: how we handle visitor information, cookie usage, individual rights under GDPR and CCPA.';
+$page_title = 'Data Protection Policy — ConnectMaroc';
+$page_description = 'Data Protection Policy of ConnectMaroc: how we handle visitor information, cookie usage, individual rights under GDPR and CCPA.';
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
@@ -29,7 +29,7 @@ require '../_header.php';
         Effective date: September 15, 2025
     </p>
 
-    <p>This document explains how the Telecom Maroc Guide website (hereafter referred to as "the Website" or "we") gathers, processes, and safeguards data associated with individuals who access its pages (hereafter "you" or "the visitor").</p>
+    <p>This document explains how the ConnectMaroc website (hereafter referred to as "the Website" or "we") gathers, processes, and safeguards data associated with individuals who access its pages (hereafter "you" or "the visitor").</p>
 
     <h2>1. Data We Gather</h2>
     <p>The Website serves a purely informational purpose and does not ask visitors to create accounts or log in. The following technical data points may be recorded automatically:</p>

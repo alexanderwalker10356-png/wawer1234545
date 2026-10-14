@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Mobile Telecommunications in Morocco — Full Guide — Telecom Maroc Guide';
+$page_title = 'Mobile Telecommunications in Morocco — Full Guide — ConnectMaroc';
 $page_description = 'An in-depth guide to Morocco\'s mobile telecom landscape: key players, technological evolution, network infrastructure and regional connectivity.';
 $page_type = 'article';
 $schema_type = 'Article';

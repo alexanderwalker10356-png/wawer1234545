@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'البنية التحتية ومعايير الاتصال في المغرب — Telecom Maroc Guide';
+$page_title = 'البنية التحتية ومعايير الاتصال في المغرب — ConnectMaroc';
 $page_description = 'تحليل مفصّل للبنية التحتية المتنقلة في المغرب: نطاقات الترددات 2G/3G/4G/5G، المعايير الدولية، التجوال والاتصال.';
 $page_type = 'article';
 $schema_type = 'Article';

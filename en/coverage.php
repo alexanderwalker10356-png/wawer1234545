@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Network Coverage by Region in Morocco — Telecom Maroc Guide';
+$page_title = 'Network Coverage by Region in Morocco — ConnectMaroc';
 $page_description = 'Regional breakdown of mobile network coverage across Morocco: 4G availability in all 12 regions, airports and major highways.';
 $page_type = 'article';
 $schema_type = 'Article';

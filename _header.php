@@ -1,5 +1,5 @@
 <?php
-$site_name = 'Telecom Maroc Guide';
+$site_name = 'ConnectMaroc';
 $site_domain = 'maroctelecomguide.world';
 $current_page = basename($_SERVER['PHP_SELF']);
 $base_url = 'https://' . $site_domain;
@@ -32,6 +32,7 @@ $ar_link = ($lang === 'ar') ? $current_page : (($lang === 'fr') ? 'ar/' . $curre
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo htmlspecialchars($page_title); ?></title>
     <meta name="description" content="<?php echo htmlspecialchars($page_description); ?>">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230c6e3d'/%3E%3Cpath d='M32 14v24' stroke='%23fff' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='12' r='4' fill='%23d4a843'/%3E%3Cpath d='M22 44c0 0 4-4 10-4s10 4 10 4' stroke='%23fff' stroke-width='3' stroke-linecap='round' fill='none'/%3E%3Cpath d='M16 50c0 0 7-6 16-6s16 6 16 6' stroke='%23fff' stroke-width='2.5' stroke-linecap='round' fill='none' opacity='.7'/%3E%3Cpath d='M24 26l-6 4M40 26l6 4' stroke='%23d4a843' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M26 20l-8 5M38 20l8 5' stroke='%23d4a843' stroke-width='2' stroke-linecap='round' opacity='.6'/%3E%3C/svg%3E">
     <link rel="canonical" href="<?php echo htmlspecialchars($page_canonical); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($page_title); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($page_description); ?>">

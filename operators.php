@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Les acteurs du réseau mobile au Maroc — Telecom Maroc Guide';
+$page_title = 'Les acteurs du réseau mobile au Maroc — ConnectMaroc';
 $page_description = 'Fiches détaillées des trois opérateurs de téléphonie mobile au Maroc : Maroc Telecom, Orange Maroc et Inwi — parcours, réseau et infrastructure.';
 $page_type = 'article';
 $schema_type = 'Article';

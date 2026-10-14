@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Mobile Infrastructure and Standards in Morocco — Telecom Maroc Guide';
+$page_title = 'Mobile Infrastructure and Standards in Morocco — ConnectMaroc';
 $page_description = 'Detailed look at Morocco\'s mobile infrastructure: 2G/3G/4G/5G frequency bands, international standards, roaming and connectivity.';
 $page_type = 'article';
 $schema_type = 'Article';

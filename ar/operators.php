@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'الفاعلون في شبكة الهاتف المحمول بالمغرب — Telecom Maroc Guide';
+$page_title = 'الفاعلون في شبكة الهاتف المحمول بالمغرب — ConnectMaroc';
 $page_description = 'ملفات تعريفية مفصّلة لمشغّلي الهاتف المحمول الثلاثة في المغرب: اتصالات المغرب وأورانج المغرب وإنوي — المسار والشبكة والبنية التحتية.';
 $page_type = 'article';
 $schema_type = 'Article';

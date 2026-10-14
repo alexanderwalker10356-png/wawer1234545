@@ -6,8 +6,8 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Politique de protection des données — Telecom Maroc Guide';
-$page_description = 'Politique de protection des données du site Telecom Maroc Guide : collecte d\'informations, cookies, droits des visiteurs, conformité RGPD et CCPA.';
+$page_title = 'Politique de protection des données — ConnectMaroc';
+$page_description = 'Politique de protection des données du site ConnectMaroc : collecte d\'informations, cookies, droits des visiteurs, conformité RGPD et CCPA.';
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
@@ -29,7 +29,7 @@ require '_header.php';
         Date d'entrée en vigueur : 15 septembre 2025
     </p>
 
-    <p>Le présent document expose les pratiques du site Telecom Maroc Guide (ci-après « la Plateforme », « nous ») concernant la collecte, le traitement et la sauvegarde des données relatives aux visiteurs (ci-après « vous ») lors de leur navigation.</p>
+    <p>Le présent document expose les pratiques du site ConnectMaroc (ci-après « la Plateforme », « nous ») concernant la collecte, le traitement et la sauvegarde des données relatives aux visiteurs (ci-après « vous ») lors de leur navigation.</p>
 
     <h2>1. Données recueillies</h2>
     <p>La Plateforme a une vocation purement informative et ne requiert ni création de compte, ni identification préalable. Les éléments techniques ci-dessous peuvent néanmoins être collectés de manière automatique :</p>

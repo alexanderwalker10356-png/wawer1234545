@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Infrastructure et standards mobiles au Maroc — Telecom Maroc Guide';
+$page_title = 'Infrastructure et standards mobiles au Maroc — ConnectMaroc';
 $page_description = 'Analyse détaillée de l\'infrastructure mobile au Maroc : bandes de fréquences 2G/3G/4G/5G, standards internationaux, itinérance et connectivité.';
 $page_type = 'article';
 $schema_type = 'Article';

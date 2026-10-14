@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'تغطية الشبكة حسب الجهات في المغرب — Telecom Maroc Guide';
+$page_title = 'تغطية الشبكة حسب الجهات في المغرب — ConnectMaroc';
 $page_description = 'نظرة تفصيلية على تغطية شبكات الهاتف المحمول عبر الجهات الاثنتي عشرة في المغرب: البنية التحتية والتقنيات المتاحة في كل منطقة.';
 $page_type = 'article';
 $schema_type = 'Article';

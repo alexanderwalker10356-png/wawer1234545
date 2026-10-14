@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'أسئلة شائعة حول الاتصالات في المغرب — Telecom Maroc Guide';
+$page_title = 'أسئلة شائعة حول الاتصالات في المغرب — ConnectMaroc';
 $page_description = 'إجابات عن الأسئلة الأكثر شيوعًا حول شبكات الهاتف المحمول في المغرب: توافق الأجهزة، eSIM، أرقام الطوارئ، التجوال والتغطية.';
 $page_type = 'article';
 $schema_type = 'FAQPage';

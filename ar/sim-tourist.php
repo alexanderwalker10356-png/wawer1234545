@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'بطاقة SIM في المغرب للمسافرين — Telecom Maroc Guide';
+$page_title = 'بطاقة SIM في المغرب للمسافرين — ConnectMaroc';
 $page_description = 'معلومات عملية حول الحصول على بطاقة SIM في المغرب: الإجراءات، الوثائق المطلوبة، إعدادات APN ونصائح للزوار.';
 $page_type = 'article';
 $schema_type = 'Article';

@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Télécommunications mobiles au Maroc — Guide complet — Telecom Maroc Guide';
+$page_title = 'Télécommunications mobiles au Maroc — Guide complet — ConnectMaroc';
 $page_description = 'Guide exhaustif sur le secteur des télécommunications mobiles au Maroc : acteurs du marché, évolution technologique, infrastructure et connectivité régionale.';
 $page_type = 'article';
 $schema_type = 'Article';

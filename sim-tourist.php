@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Carte SIM au Maroc pour les voyageurs — Telecom Maroc Guide';
+$page_title = 'Carte SIM au Maroc pour les voyageurs — ConnectMaroc';
 $page_description = 'Informations pratiques sur l\'obtention d\'une carte SIM au Maroc : démarches, documents, paramètres APN et conseils pour les voyageurs.';
 $page_type = 'article';
 $schema_type = 'Article';

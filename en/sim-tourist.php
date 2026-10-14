@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Getting a SIM Card in Morocco — Traveler\'s Guide — Telecom Maroc Guide';
+$page_title = 'Getting a SIM Card in Morocco — Traveler\'s Guide — ConnectMaroc';
 $page_description = 'Practical guide to obtaining a SIM card in Morocco: process, documents, APN configuration and tips for international visitors.';
 $page_type = 'article';
 $schema_type = 'Article';

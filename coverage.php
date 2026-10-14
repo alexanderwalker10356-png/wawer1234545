@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Couverture réseau par région au Maroc — Telecom Maroc Guide';
+$page_title = 'Couverture réseau par région au Maroc — ConnectMaroc';
 $page_description = 'État de la couverture mobile dans les 12 régions du Maroc : technologies dominantes, connectivité urbaine et rurale, aéroports et axes de transport.';
 $page_type = 'article';
 $schema_type = 'Article';

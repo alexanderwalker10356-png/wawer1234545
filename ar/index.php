@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'ar';
-$page_title = 'الاتصالات المتنقلة في المغرب — دليل شامل — Telecom Maroc Guide';
+$page_title = 'الاتصالات المتنقلة في المغرب — دليل شامل — ConnectMaroc';
 $page_description = 'دليل مفصّل حول قطاع الاتصالات المتنقلة في المغرب: الفاعلون في السوق، التطور التقني، البنية التحتية والتغطية الإقليمية.';
 $page_type = 'article';
 $schema_type = 'Article';

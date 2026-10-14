@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Questions fréquentes sur les télécoms au Maroc — Telecom Maroc Guide';
+$page_title = 'Questions fréquentes sur les télécoms au Maroc — ConnectMaroc';
 $page_description = 'Réponses aux questions courantes sur la téléphonie mobile au Maroc : compatibilité des appareils, eSIM, numéros d\'urgence, itinérance et format des numéros.';
 $page_type = 'article';
 $schema_type = 'Article';

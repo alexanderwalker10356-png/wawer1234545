@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Morocco\'s Mobile Network Operators — Telecom Maroc Guide';
+$page_title = 'Morocco\'s Mobile Network Operators — ConnectMaroc';
 $page_description = 'Detailed profiles of Morocco\'s three mobile operators: Maroc Telecom, Orange Maroc and Inwi — background, network reach and technical capabilities.';
 $page_type = 'article';
 $schema_type = 'Article';

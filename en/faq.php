@@ -6,7 +6,7 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'en';
-$page_title = 'Frequently Asked Questions About Telecoms in Morocco — Telecom Maroc Guide';
+$page_title = 'Frequently Asked Questions About Telecoms in Morocco — ConnectMaroc';
 $page_description = 'Answers to common questions about mobile telecoms in Morocco: phone compatibility, eSIM, emergency numbers, roaming, number format and rural connectivity.';
 $page_type = 'article';
 $schema_type = 'Article';
