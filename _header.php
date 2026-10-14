@@ -15,9 +15,9 @@ if (!isset($schema_type)) $schema_type = 'WebSite';
 if (!isset($breadcrumbs)) $breadcrumbs = [];
 
 $nav_labels = [
-    'fr' => ['index.php' => 'Accueil', 'operators.php' => 'Opérateurs', 'technology.php' => 'Technologies', 'privacy.php' => 'Confidentialité'],
-    'en' => ['index.php' => 'Home', 'operators.php' => 'Operators', 'technology.php' => 'Technologies', 'privacy.php' => 'Privacy'],
-    'ar' => ['index.php' => 'الرئيسية', 'operators.php' => 'المشغّلون', 'technology.php' => 'التقنيات', 'privacy.php' => 'الخصوصية'],
+    'fr' => ['index.php' => 'Accueil', 'operators.php' => 'Opérateurs', 'technology.php' => 'Technologies', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'Couverture', 'faq.php' => 'FAQ'],
+    'en' => ['index.php' => 'Home', 'operators.php' => 'Operators', 'technology.php' => 'Technologies', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'Coverage', 'faq.php' => 'FAQ'],
+    'ar' => ['index.php' => 'الرئيسية', 'operators.php' => 'المشغّلون', 'technology.php' => 'التقنيات', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'التغطية', 'faq.php' => 'الأسئلة'],
 ];
 $nav_items = isset($nav_labels[$lang]) ? $nav_labels[$lang] : $nav_labels['fr'];
 

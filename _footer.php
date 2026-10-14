@@ -2,25 +2,25 @@
 <?php
 $footer_text = [
     'fr' => [
-        'desc' => 'Ressource informative indépendante sur les télécommunications au Maroc.',
-        'sections' => 'Sections',
-        'nav' => ['index.php' => 'Accueil', 'operators.php' => 'Opérateurs', 'technology.php' => 'Technologies', 'privacy.php' => 'Confidentialité'],
-        'contact' => 'Contact',
-        'copy' => 'Contenu à caractère informatif uniquement.',
+        'desc' => 'Portail d\'information dédié au secteur des télécommunications mobiles au Maroc.',
+        'sections' => 'Rubriques',
+        'nav' => ['index.php' => 'Accueil', 'operators.php' => 'Opérateurs', 'technology.php' => 'Technologies', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'Couverture', 'faq.php' => 'FAQ', 'privacy.php' => 'Confidentialité'],
+        'contact' => 'Nous écrire',
+        'copy' => 'Portail à vocation strictement informative.',
     ],
     'en' => [
-        'desc' => 'Independent informational resource on telecommunications in Morocco.',
-        'sections' => 'Sections',
-        'nav' => ['index.php' => 'Home', 'operators.php' => 'Operators', 'technology.php' => 'Technologies', 'privacy.php' => 'Privacy'],
-        'contact' => 'Contact',
-        'copy' => 'Informational content only.',
+        'desc' => 'An informational portal dedicated to mobile telecommunications across Morocco.',
+        'sections' => 'Pages',
+        'nav' => ['index.php' => 'Home', 'operators.php' => 'Operators', 'technology.php' => 'Technologies', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'Coverage', 'faq.php' => 'FAQ', 'privacy.php' => 'Privacy'],
+        'contact' => 'Get in Touch',
+        'copy' => 'Strictly informational portal.',
     ],
     'ar' => [
-        'desc' => 'مصدر معلوماتي مستقل حول الاتصالات في المغرب.',
-        'sections' => 'الأقسام',
-        'nav' => ['index.php' => 'الرئيسية', 'operators.php' => 'المشغّلون', 'technology.php' => 'التقنيات', 'privacy.php' => 'الخصوصية'],
-        'contact' => 'اتصل بنا',
-        'copy' => 'محتوى إعلامي فقط.',
+        'desc' => 'بوابة معلوماتية مخصصة لقطاع الاتصالات المتنقلة في المغرب.',
+        'sections' => 'الصفحات',
+        'nav' => ['index.php' => 'الرئيسية', 'operators.php' => 'المشغّلون', 'technology.php' => 'التقنيات', 'sim-tourist.php' => 'SIM', 'coverage.php' => 'التغطية', 'faq.php' => 'الأسئلة', 'privacy.php' => 'الخصوصية'],
+        'contact' => 'تواصل معنا',
+        'copy' => 'بوابة ذات طابع إعلامي بحت.',
     ],
 ];
 $fl = isset($lang) ? $lang : 'fr';
