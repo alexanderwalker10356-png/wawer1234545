@@ -6,8 +6,8 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Politique de confidentialité — Telecom Maroc Guide';
-$page_description = 'Politique de confidentialité du site Telecom Maroc Guide : traitement des données personnelles, cookies, droits des utilisateurs, RGPD et CCPA.';
+$page_title = 'Politique de protection des données — Telecom Maroc Guide';
+$page_description = 'Politique de protection des données du site Telecom Maroc Guide : collecte d\'informations, cookies, droits des visiteurs, conformité RGPD et CCPA.';
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
@@ -23,74 +23,74 @@ require '_header.php';
         <a href="index.php">Accueil</a><span class="sep">/</span><span>Confidentialité</span>
     </nav>
 
-    <h1>Politique de confidentialité</h1>
+    <h1>Politique de protection des données</h1>
     <p class="last-updated">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
         Date d'entrée en vigueur : 15 septembre 2025
     </p>
 
-    <p>La présente Politique de confidentialité décrit la manière dont le site Telecom Maroc Guide (ci-après « le Site », « nous ») collecte, utilise et protège les informations que les utilisateurs (ci-après « vous ») fournissent lors de leur visite.</p>
+    <p>Le présent document expose les pratiques du site Telecom Maroc Guide (ci-après « la Plateforme », « nous ») concernant la collecte, le traitement et la sauvegarde des données relatives aux visiteurs (ci-après « vous ») lors de leur navigation.</p>
 
-    <h2>1. Informations collectées</h2>
-    <p>Le Site est une ressource informative et ne nécessite ni inscription, ni création de compte. Nous pouvons collecter automatiquement les informations techniques suivantes :</p>
+    <h2>1. Données recueillies</h2>
+    <p>La Plateforme a une vocation purement informative et ne requiert ni création de compte, ni identification préalable. Les éléments techniques ci-dessous peuvent néanmoins être collectés de manière automatique :</p>
     <ul>
         <li>Adresse IP du visiteur.</li>
-        <li>Type et version du navigateur.</li>
-        <li>Système d'exploitation de l'appareil.</li>
-        <li>Pages visitées et durée de la visite.</li>
-        <li>URL de provenance (referrer).</li>
+        <li>Nature et version du logiciel de navigation.</li>
+        <li>Système d'exploitation du terminal utilisé.</li>
+        <li>Pages consultées et durée de la session.</li>
+        <li>Adresse de provenance (referrer).</li>
     </ul>
-    <p>Ces informations sont utilisées exclusivement pour assurer le bon fonctionnement du Site et analyser la fréquentation de manière agrégée.</p>
+    <p>Ces éléments servent uniquement au maintien du bon fonctionnement de la Plateforme et à l'étude statistique anonyme de la fréquentation.</p>
 
-    <h2>2. Cookies</h2>
-    <p>Le Site peut utiliser des cookies techniquement nécessaires. Nous n'utilisons pas de cookies publicitaires, de suivi ni de cookies tiers.</p>
+    <h2>2. Fichiers témoins (cookies)</h2>
+    <p>La Plateforme est susceptible d'employer des fichiers témoins strictement nécessaires au fonctionnement technique. Aucun cookie publicitaire, de pistage ou émanant de tiers n'est utilisé.</p>
     <ul>
-        <li>Identifiant de session pour le fonctionnement serveur.</li>
-        <li>Paramètres d'affichage (le cas échéant).</li>
+        <li>Jeton de session indispensable au serveur.</li>
+        <li>Préférences d'affichage (si applicable).</li>
     </ul>
-    <p>La désactivation des cookies n'affectera pas l'accès au contenu du Site.</p>
+    <p>La désactivation des fichiers témoins dans votre navigateur n'empêchera pas la consultation du contenu de la Plateforme.</p>
 
-    <h2>3. Utilisation des informations</h2>
+    <h2>3. Finalité du traitement</h2>
     <ul>
-        <li>Assurer le fonctionnement et la sécurité du Site.</li>
-        <li>Analyser la fréquentation de manière agrégée.</li>
-        <li>Détecter et prévenir les problèmes techniques.</li>
+        <li>Garantir l'accessibilité et la sécurité de la Plateforme.</li>
+        <li>Réaliser des analyses de fréquentation sous forme agrégée.</li>
+        <li>Identifier et corriger les dysfonctionnements techniques.</li>
     </ul>
-    <p>Nous ne vendons, ne transférons et ne divulguons pas de données personnelles à des tiers, sauf dans les cas prévus par la loi.</p>
+    <p>Nous ne procédons à aucune cession, transmission ou divulgation de données à caractère personnel au profit de tiers, sauf obligation légale.</p>
 
-    <h2>4. Droits des utilisateurs — RGPD</h2>
-    <p>Si vous êtes résident de l'Union européenne ou de l'EEE :</p>
+    <h2>4. Droits des visiteurs — RGPD</h2>
+    <p>Si vous résidez au sein de l'Union européenne ou de l'Espace économique européen :</p>
     <ul>
-        <li><strong>Droit d'accès</strong> — informations sur les données traitées vous concernant.</li>
-        <li><strong>Droit de rectification</strong> — correction de données inexactes.</li>
-        <li><strong>Droit à l'effacement</strong> — suppression de vos données personnelles.</li>
-        <li><strong>Droit à la limitation du traitement</strong> — limitation du traitement dans certains cas.</li>
-        <li><strong>Droit à la portabilité</strong> — données dans un format structuré.</li>
-        <li><strong>Droit d'opposition</strong> — opposition au traitement de vos données.</li>
+        <li><strong>Droit d'accès</strong> — obtenir le détail des données vous concernant faisant l'objet d'un traitement.</li>
+        <li><strong>Droit de rectification</strong> — demander la correction de données inexactes.</li>
+        <li><strong>Droit à l'effacement</strong> — solliciter la suppression de vos données personnelles.</li>
+        <li><strong>Droit à la limitation</strong> — restreindre le traitement dans des circonstances déterminées.</li>
+        <li><strong>Droit à la portabilité</strong> — recevoir vos données dans un format structuré et courant.</li>
+        <li><strong>Droit d'opposition</strong> — vous opposer au traitement de vos données.</li>
     </ul>
-    <p>Pour exercer ces droits : adam.henderson62464@gmail.com.</p>
+    <p>Pour faire valoir ces droits : adam.henderson62464@gmail.com.</p>
 
-    <h2>5. Droits des utilisateurs — CCPA</h2>
-    <p>Si vous êtes résident de Californie :</p>
+    <h2>5. Droits des visiteurs — CCPA</h2>
+    <p>Si vous résidez en Californie :</p>
     <ul>
-        <li>Droit de savoir quelles catégories de données sont collectées.</li>
-        <li>Droit à la suppression des données collectées.</li>
-        <li>Droit de refuser la vente de données. Nous ne vendons pas de données.</li>
-        <li>Droit à la non-discrimination.</li>
+        <li>Droit de connaître les catégories de données recueillies.</li>
+        <li>Droit d'en obtenir la suppression.</li>
+        <li>Droit de refuser toute vente de données. Nous ne vendons aucune donnée.</li>
+        <li>Droit à un traitement non discriminatoire.</li>
     </ul>
-    <p>Pour exercer ces droits : adam.henderson62464@gmail.com.</p>
+    <p>Pour faire valoir ces droits : adam.henderson62464@gmail.com.</p>
 
-    <h2>6. Protection des données</h2>
-    <p>Nous prenons des mesures techniques et organisationnelles raisonnables pour protéger les informations que nous traitons. Toutefois, aucune méthode de transmission de données sur Internet n'est totalement sécurisée.</p>
+    <h2>6. Mesures de sécurité</h2>
+    <p>Nous mettons en place des dispositions techniques et organisationnelles appropriées pour protéger les données traitées. Il reste toutefois impossible de garantir une sécurité absolue pour toute transmission de données via Internet.</p>
 
-    <h2>7. Liens vers des ressources tierces</h2>
-    <p>Le Site ne contient pas de liens vers des ressources tierces. Si de tels liens venaient à être ajoutés, nous ne saurions être tenus responsables de la politique de confidentialité des sites tiers.</p>
+    <h2>7. Renvois vers des sites extérieurs</h2>
+    <p>La Plateforme ne comporte pas de liens vers des sites tiers. Si de tels renvois venaient à être intégrés, nous déclinons toute responsabilité quant aux pratiques de protection des données de ces sites.</p>
 
-    <h2>8. Modifications de la politique</h2>
-    <p>Nous nous réservons le droit de modifier cette Politique de confidentialité. La version actuelle est toujours disponible sur cette page.</p>
+    <h2>8. Évolution de la présente politique</h2>
+    <p>Nous nous réservons la faculté de réviser ce document. La version en vigueur est systématiquement accessible sur cette page.</p>
 
     <h2>9. Coordonnées</h2>
-    <p>Pour toute question : adam.henderson62464@gmail.com.</p>
+    <p>Pour toute interrogation : adam.henderson62464@gmail.com.</p>
 </article>
 
 <?php require '_footer.php'; ?>

@@ -6,11 +6,11 @@ header('X-Frame-Options: SAMEORIGIN');
 header('Referrer-Policy: strict-origin-when-cross-origin');
 
 $page_lang = 'fr';
-$page_title = 'Opérateurs mobiles au Maroc — Telecom Maroc Guide';
-$page_description = 'Présentation des opérateurs mobiles au Maroc : Maroc Telecom, Orange Maroc et Inwi — histoire, couverture, technologies et caractéristiques réseau.';
+$page_title = 'Les acteurs du réseau mobile au Maroc — Telecom Maroc Guide';
+$page_description = 'Fiches détaillées des trois opérateurs de téléphonie mobile au Maroc : Maroc Telecom, Orange Maroc et Inwi — parcours, réseau et infrastructure.';
 $page_type = 'article';
 $schema_type = 'Article';
-$article_headline = 'Opérateurs mobiles au Maroc';
+$article_headline = 'Les acteurs du réseau mobile au Maroc';
 $breadcrumbs = [
     ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
     ['name' => 'Opérateurs', 'url' => 'https://maroctelecomguide.world/operators.php'],
@@ -24,13 +24,13 @@ require '_header.php';
         <a href="index.php">Accueil</a><span class="sep">/</span><span>Opérateurs</span>
     </nav>
 
-    <h1>Opérateurs mobiles au Maroc</h1>
+    <h1>Les acteurs du réseau mobile au Maroc</h1>
     <p class="last-updated">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
         Mis à jour : octobre 2026
     </p>
 
-    <p>Le marché marocain de la téléphonie mobile est structuré depuis plus de deux décennies autour de trois opérateurs. Chacun occupe son propre créneau, dispose de sa propre infrastructure réseau et de sa zone de couverture.</p>
+    <p>Depuis l'ouverture à la concurrence, trois exploitants se partagent le paysage de la téléphonie sans fil au Maroc. Chacun possède ses propres installations techniques, sa stratégie de déploiement et son empreinte géographique.</p>
 
     <div class="operator-section">
         <h2>
@@ -41,18 +41,18 @@ require '_header.php';
         </h2>
 
         <table class="spec-table">
-            <thead><tr><th colspan="2">Fiche technique</th></tr></thead>
-            <tr><th>Création</th><td>1998 (issu de l'opérateur public actif depuis 1956)</td></tr>
-            <tr><th>Actionnaire</th><td>Etisalat Group (actionnaire majoritaire), État du Maroc</td></tr>
-            <tr><th>Technologies</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), 5G pilote</td></tr>
-            <tr><th>Couverture 4G</th><td>Plus de 90 % de la population</td></tr>
+            <thead><tr><th colspan="2">Caractéristiques</th></tr></thead>
+            <tr><th>Fondation</th><td>1998 (héritier de l'exploitant public en service depuis 1956)</td></tr>
+            <tr><th>Actionnariat</th><td>Etisalat Group (actionnaire de référence), État marocain</td></tr>
+            <tr><th>Standards déployés</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), 5G pilote</td></tr>
+            <tr><th>Desserte 4G</th><td>Plus de 90 % de la population</td></tr>
         </table>
 
-        <p>Maroc Telecom est historiquement le premier et le plus grand opérateur de télécommunications du Maroc. L'entreprise tire ses origines du service postal et télégraphique de l'État. Après la réforme de 1998, l'opérateur a été transformé en société anonyme, puis partiellement privatisé.</p>
+        <p>Premier exploitant de réseau du Royaume, Maroc Telecom plonge ses racines dans l'ancien service des postes et télégraphes. À la suite de la réforme législative de 1998, l'entité a pris la forme d'une société de droit privé, dont une partie du capital a ensuite été ouverte à des investisseurs internationaux.</p>
 
-        <p>Aujourd'hui, Maroc Telecom dispose de l'infrastructure réseau la plus étendue du pays. Ses stations de base sont installées jusque dans les zones montagneuses de l'Atlas et aux abords du Sahara. Le réseau 4G LTE est déployé dans toutes les grandes et moyennes villes, ainsi que le long des principaux axes routiers.</p>
+        <p>De nos jours, cet opérateur se distingue par le maillage territorial le plus étendu du pays. Ses antennes-relais sont implantées y compris dans les vallées du Haut Atlas et aux portes du désert saharien. Le réseau 4G LTE est opérationnel dans l'ensemble des agglomérations de taille moyenne et grande, de même que sur les principaux corridors routiers.</p>
 
-        <p>L'entreprise participe activement aux projets pilotes 5G à Casablanca et Rabat. Outre la téléphonie mobile, Maroc Telecom possède un vaste réseau fixe et constitue le premier fournisseur d'accès internet du pays.</p>
+        <p>La société conduit des expérimentations 5G dans les métropoles de Casablanca et Rabat. Au-delà de la téléphonie sans fil, Maroc Telecom exploite également un important réseau filaire et occupe la première place en matière de fourniture d'accès à internet au Maroc.</p>
     </div>
 
     <div class="operator-section">
@@ -64,18 +64,18 @@ require '_header.php';
         </h2>
 
         <table class="spec-table">
-            <thead><tr><th colspan="2">Fiche technique</th></tr></thead>
-            <tr><th>Création</th><td>2000 (sous le nom Médi Télécom, rebaptisé Orange Maroc en 2016)</td></tr>
-            <tr><th>Actionnaire</th><td>Orange S.A. (France), Atlas Merchant Capital</td></tr>
-            <tr><th>Technologies</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), essais 5G</td></tr>
-            <tr><th>Couverture 4G</th><td>Plus de 85 % de la population</td></tr>
+            <thead><tr><th colspan="2">Caractéristiques</th></tr></thead>
+            <tr><th>Fondation</th><td>2000 (initialement Médi Télécom, renommé Orange Maroc en 2016)</td></tr>
+            <tr><th>Actionnariat</th><td>Orange S.A. (France), Atlas Merchant Capital</td></tr>
+            <tr><th>Standards déployés</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), essais 5G</td></tr>
+            <tr><th>Desserte 4G</th><td>Plus de 85 % de la population</td></tr>
         </table>
 
-        <p>Orange Maroc est apparu sur le marché en 2000 sous le nom de Médi Télécom, devenant ainsi le premier concurrent du monopole d'État. L'entreprise a été fondée par des investisseurs espagnols et marocains, avant que le contrôle ne passe au groupe français Orange en 2010.</p>
+        <p>Orange Maroc a fait son entrée sur le marché en 2000 sous la dénomination Médi Télécom, rompant ainsi avec des décennies de monopole étatique. La société a d'abord été créée par un consortium d'investisseurs hispano-marocains avant que le groupe français Orange n'en prenne le contrôle à partir de 2010.</p>
 
-        <p>L'opérateur a concentré le développement de son réseau sur la côte atlantique et les principales agglomérations. La couverture 4G est disponible à Casablanca, Rabat, Marrakech, Fès, Tanger, Agadir, Meknès et dans des dizaines d'autres villes.</p>
+        <p>L'essentiel de l'infrastructure réseau de cet opérateur se concentre le long de la façade atlantique et dans les principales zones urbanisées. La 4G est accessible à Casablanca, Rabat, Marrakech, Fès, Tanger, Agadir, Meknès et dans de nombreuses autres villes du pays.</p>
 
-        <p>Orange Maroc investit dans la modernisation de son réseau et l'augmentation de la capacité LTE. L'entreprise utilise la technologie d'agrégation de porteuses (Carrier Aggregation) pour accroître le débit dans les zones à forte densité.</p>
+        <p>Orange Maroc consacre des ressources substantielles à l'extension de la capacité LTE de son réseau. Le recours à l'agrégation de porteuses (Carrier Aggregation) permet d'augmenter sensiblement le débit dans les secteurs où la demande est la plus forte.</p>
     </div>
 
     <div class="operator-section">
@@ -87,34 +87,34 @@ require '_header.php';
         </h2>
 
         <table class="spec-table">
-            <thead><tr><th colspan="2">Fiche technique</th></tr></thead>
-            <tr><th>Création</th><td>2009 (licence mobile ; Wana Corporate fondée en 2007)</td></tr>
-            <tr><th>Actionnaire</th><td>Al Mada (holding d'investissement marocain)</td></tr>
-            <tr><th>Technologies</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), essais 5G</td></tr>
-            <tr><th>Couverture 4G</th><td>Plus de 75 % de la population</td></tr>
+            <thead><tr><th colspan="2">Caractéristiques</th></tr></thead>
+            <tr><th>Fondation</th><td>2009 (licence mobile ; Wana Corporate constituée en 2007)</td></tr>
+            <tr><th>Actionnariat</th><td>Al Mada (groupe d'investissement marocain)</td></tr>
+            <tr><th>Standards déployés</th><td>2G (GSM 900/1800), 3G (UMTS 2100), 4G LTE (800/1800/2600 MHz), essais 5G</td></tr>
+            <tr><th>Desserte 4G</th><td>Plus de 75 % de la population</td></tr>
         </table>
 
-        <p>Inwi est le plus jeune opérateur mobile du Maroc, ayant fait son entrée sur le marché en 2009. Auparavant, la société mère Wana Corporate fournissait des services de téléphonie fixe et d'internet sans fil via la technologie CDMA.</p>
+        <p>Inwi représente le plus récent des trois exploitants de réseau sans fil au Maroc, avec un début d'activité remontant à 2009. Avant cette date, sa maison mère Wana Corporate proposait déjà des services de téléphonie fixe et de connexion internet sans fil reposant sur la technologie CDMA.</p>
 
-        <p>Malgré son arrivée tardive, Inwi a rapidement développé sa base d'abonnés. L'opérateur mise sur les marchés urbains, concentrant ses investissements dans les régions les plus peuplées : Casablanca-Settat, Rabat-Salé-Kénitra, Marrakech-Safi et Tanger-Tétouan-Al Hoceïma.</p>
+        <p>Bien qu'arrivé après ses concurrents, Inwi a su constituer une clientèle conséquente en un temps relativement court. Sa stratégie privilégie les marchés citadins, avec des investissements concentrés dans les régions à forte densité démographique : Casablanca-Settat, Rabat-Salé-Kénitra, Marrakech-Safi et Tanger-Tétouan-Al Hoceïma.</p>
 
-        <p>Dans les régions moins peuplées, la couverture se limite principalement aux réseaux 3G. Inwi participe également aux programmes d'essais 5G supervisés par l'ANRT.</p>
+        <p>En dehors des grandes aires urbaines, la desserte repose essentiellement sur les réseaux 3G. Inwi prend également part aux programmes d'expérimentation 5G encadrés par l'ANRT.</p>
     </div>
 
-    <h2>Comparaison des opérateurs</h2>
+    <h2>Tableau récapitulatif des trois exploitants</h2>
 
     <table class="spec-table">
         <thead>
-            <tr><th>Paramètre</th><th>Maroc Telecom</th><th>Orange Maroc</th><th>Inwi</th></tr>
+            <tr><th>Critère</th><th>Maroc Telecom</th><th>Orange Maroc</th><th>Inwi</th></tr>
         </thead>
         <tbody>
-            <tr><td>Année de lancement</td><td>1998</td><td>2000</td><td>2009</td></tr>
+            <tr><td>Début d'exploitation</td><td>1998</td><td>2000</td><td>2009</td></tr>
             <tr><td>2G (GSM)</td><td>900 / 1800 MHz</td><td>900 / 1800 MHz</td><td>900 / 1800 MHz</td></tr>
             <tr><td>3G (UMTS)</td><td>2100 MHz</td><td>2100 MHz</td><td>2100 MHz</td></tr>
             <tr><td>4G LTE</td><td>800 / 1800 / 2600 MHz</td><td>800 / 1800 / 2600 MHz</td><td>800 / 1800 / 2600 MHz</td></tr>
-            <tr><td>Couverture 4G</td><td>&gt; 90 %</td><td>&gt; 85 %</td><td>&gt; 75 %</td></tr>
-            <tr><td>5G (statut)</td><td>Zones pilotes</td><td>Essais</td><td>Essais</td></tr>
-            <tr><td>Couverture rurale</td><td>La plus étendue</td><td>Modérée</td><td>Limitée</td></tr>
+            <tr><td>Desserte 4G</td><td>&gt; 90 %</td><td>&gt; 85 %</td><td>&gt; 75 %</td></tr>
+            <tr><td>5G (avancement)</td><td>Zones pilotes</td><td>Essais</td><td>Essais</td></tr>
+            <tr><td>Présence rurale</td><td>La plus développée</td><td>Intermédiaire</td><td>Restreinte</td></tr>
         </tbody>
     </table>
 </article>
