@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Questions fréquentes sur les télécoms au Maroc';
 $breadcrumbs = [
-    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
-    ['name' => 'FAQ', 'url' => 'https://maroctelecomguide.world/faq.php'],
+    ['name' => 'Accueil', 'url' => 'https://lamtelmorocco.world/index.php'],
+    ['name' => 'FAQ', 'url' => 'https://lamtelmorocco.world/faq.php'],
 ];
 
 require '_header.php';

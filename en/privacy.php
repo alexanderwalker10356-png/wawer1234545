@@ -11,8 +11,8 @@ $page_description = 'Data Protection Policy of ConnectMaroc: how we handle visit
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
-    ['name' => 'Home', 'url' => 'https://maroctelecomguide.world/en/index.php'],
-    ['name' => 'Privacy', 'url' => 'https://maroctelecomguide.world/en/privacy.php'],
+    ['name' => 'Home', 'url' => 'https://lamtelmorocco.world/en/index.php'],
+    ['name' => 'Privacy', 'url' => 'https://lamtelmorocco.world/en/privacy.php'],
 ];
 
 require '../_header.php';

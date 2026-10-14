@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Les acteurs du réseau mobile au Maroc';
 $breadcrumbs = [
-    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
-    ['name' => 'Opérateurs', 'url' => 'https://maroctelecomguide.world/operators.php'],
+    ['name' => 'Accueil', 'url' => 'https://lamtelmorocco.world/index.php'],
+    ['name' => 'Opérateurs', 'url' => 'https://lamtelmorocco.world/operators.php'],
 ];
 
 require '_header.php';

@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Getting a SIM Card in Morocco';
 $breadcrumbs = [
-    ['name' => 'Home', 'url' => 'https://maroctelecomguide.world/en/index.php'],
-    ['name' => 'SIM', 'url' => 'https://maroctelecomguide.world/en/sim-tourist.php'],
+    ['name' => 'Home', 'url' => 'https://lamtelmorocco.world/en/index.php'],
+    ['name' => 'SIM', 'url' => 'https://lamtelmorocco.world/en/sim-tourist.php'],
 ];
 
 require '../_header.php';

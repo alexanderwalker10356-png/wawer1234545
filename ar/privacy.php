@@ -11,8 +11,8 @@ $page_description = 'سياسة حماية البيانات الخاصة بمو�
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'حماية البيانات', 'url' => 'https://maroctelecomguide.world/ar/privacy.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'حماية البيانات', 'url' => 'https://lamtelmorocco.world/ar/privacy.php'],
 ];
 
 require '../_header.php';

@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'البنية التحتية ومعايير الاتصال في المغرب';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'التقنيات', 'url' => 'https://maroctelecomguide.world/ar/technology.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'التقنيات', 'url' => 'https://lamtelmorocco.world/ar/technology.php'],
 ];
 
 require '../_header.php';

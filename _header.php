@@ -1,6 +1,6 @@
 <?php
 $site_name = 'ConnectMaroc';
-$site_domain = 'maroctelecomguide.world';
+$site_domain = 'lamtelmorocco.world';
 $current_page = basename($_SERVER['PHP_SELF']);
 $base_url = 'https://' . $site_domain;
 

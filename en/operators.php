@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Morocco\'s Mobile Network Operators';
 $breadcrumbs = [
-    ['name' => 'Home', 'url' => 'https://maroctelecomguide.world/en/index.php'],
-    ['name' => 'Operators', 'url' => 'https://maroctelecomguide.world/en/operators.php'],
+    ['name' => 'Home', 'url' => 'https://lamtelmorocco.world/en/index.php'],
+    ['name' => 'Operators', 'url' => 'https://lamtelmorocco.world/en/operators.php'],
 ];
 
 require '../_header.php';

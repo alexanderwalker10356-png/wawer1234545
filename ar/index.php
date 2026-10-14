@@ -12,7 +12,7 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'الاتصالات المتنقلة في المغرب';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
 ];
 
 require '../_header.php';

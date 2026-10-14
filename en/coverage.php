@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Network Coverage by Region in Morocco';
 $breadcrumbs = [
-    ['name' => 'Home', 'url' => 'https://maroctelecomguide.world/en/index.php'],
-    ['name' => 'Coverage', 'url' => 'https://maroctelecomguide.world/en/coverage.php'],
+    ['name' => 'Home', 'url' => 'https://lamtelmorocco.world/en/index.php'],
+    ['name' => 'Coverage', 'url' => 'https://lamtelmorocco.world/en/coverage.php'],
 ];
 
 require '../_header.php';

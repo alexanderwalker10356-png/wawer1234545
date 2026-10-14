@@ -11,8 +11,8 @@ $page_description = 'Politique de protection des données du site ConnectMaroc :
 $page_type = 'website';
 $schema_type = 'WebSite';
 $breadcrumbs = [
-    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
-    ['name' => 'Confidentialité', 'url' => 'https://maroctelecomguide.world/privacy.php'],
+    ['name' => 'Accueil', 'url' => 'https://lamtelmorocco.world/index.php'],
+    ['name' => 'Confidentialité', 'url' => 'https://lamtelmorocco.world/privacy.php'],
 ];
 
 require '_header.php';

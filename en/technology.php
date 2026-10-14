@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Mobile Infrastructure and Standards in Morocco';
 $breadcrumbs = [
-    ['name' => 'Home', 'url' => 'https://maroctelecomguide.world/en/index.php'],
-    ['name' => 'Technologies', 'url' => 'https://maroctelecomguide.world/en/technology.php'],
+    ['name' => 'Home', 'url' => 'https://lamtelmorocco.world/en/index.php'],
+    ['name' => 'Technologies', 'url' => 'https://lamtelmorocco.world/en/technology.php'],
 ];
 
 require '../_header.php';

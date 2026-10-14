@@ -12,7 +12,7 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Télécommunications mobiles au Maroc';
 $breadcrumbs = [
-    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
+    ['name' => 'Accueil', 'url' => 'https://lamtelmorocco.world/index.php'],
 ];
 
 require '_header.php';

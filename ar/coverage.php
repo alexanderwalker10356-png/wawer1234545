@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'تغطية الشبكة حسب الجهات في المغرب';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'التغطية', 'url' => 'https://maroctelecomguide.world/ar/coverage.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'التغطية', 'url' => 'https://lamtelmorocco.world/ar/coverage.php'],
 ];
 
 require '../_header.php';

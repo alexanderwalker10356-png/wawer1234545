@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'FAQPage';
 $article_headline = 'أسئلة شائعة حول الاتصالات في المغرب';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'الأسئلة الشائعة', 'url' => 'https://maroctelecomguide.world/ar/faq.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'الأسئلة الشائعة', 'url' => 'https://lamtelmorocco.world/ar/faq.php'],
 ];
 
 require '../_header.php';

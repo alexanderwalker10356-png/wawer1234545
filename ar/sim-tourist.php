@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'بطاقة SIM في المغرب للمسافرين';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'SIM', 'url' => 'https://maroctelecomguide.world/ar/sim-tourist.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'SIM', 'url' => 'https://lamtelmorocco.world/ar/sim-tourist.php'],
 ];
 
 require '../_header.php';

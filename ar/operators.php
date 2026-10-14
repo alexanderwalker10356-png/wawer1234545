@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'الفاعلون في شبكة الهاتف المحمول بالمغرب';
 $breadcrumbs = [
-    ['name' => 'الرئيسية', 'url' => 'https://maroctelecomguide.world/ar/index.php'],
-    ['name' => 'المشغّلون', 'url' => 'https://maroctelecomguide.world/ar/operators.php'],
+    ['name' => 'الرئيسية', 'url' => 'https://lamtelmorocco.world/ar/index.php'],
+    ['name' => 'المشغّلون', 'url' => 'https://lamtelmorocco.world/ar/operators.php'],
 ];
 
 require '../_header.php';

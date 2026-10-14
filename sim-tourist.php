@@ -12,8 +12,8 @@ $page_type = 'article';
 $schema_type = 'Article';
 $article_headline = 'Carte SIM au Maroc pour les voyageurs';
 $breadcrumbs = [
-    ['name' => 'Accueil', 'url' => 'https://maroctelecomguide.world/index.php'],
-    ['name' => 'SIM', 'url' => 'https://maroctelecomguide.world/sim-tourist.php'],
+    ['name' => 'Accueil', 'url' => 'https://lamtelmorocco.world/index.php'],
+    ['name' => 'SIM', 'url' => 'https://lamtelmorocco.world/sim-tourist.php'],
 ];
 
 require '_header.php';
