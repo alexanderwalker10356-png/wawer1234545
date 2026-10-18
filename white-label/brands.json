@@ -1,0 +1,130 @@
+{
+  "brands": {
+    "ticket.ma": {
+      "name": "Ticket.ma",
+      "slug": "ticket-ma",
+      "colors": {
+        "primary": "#1E3A8A",
+        "secondary": "#3B82F6",
+        "accent": "#F59E0B",
+        "background": "#F8FAFC",
+        "text": "#1E293B"
+      },
+      "font": "'Inter', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/ticket-ma.svg",
+      "favicon": "/assets/favicons/ticket-ma.ico",
+      "currency": "MAD",
+      "locale": "fr-MA",
+      "payment_description": "Ticket.ma — Achat de billet"
+    },
+    "majourneys.com": {
+      "name": "MA Journeys",
+      "slug": "majourneys",
+      "colors": {
+        "primary": "#065F46",
+        "secondary": "#10B981",
+        "accent": "#F97316",
+        "background": "#ECFDF5",
+        "text": "#1E293B"
+      },
+      "font": "'Poppins', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/majourneys.svg",
+      "favicon": "/assets/favicons/majourneys.ico",
+      "currency": "MAD",
+      "locale": "en",
+      "payment_description": "MA Journeys — Trip payment"
+    },
+    "marrakech-desert-trips.com": {
+      "name": "Marrakech Desert Trips",
+      "slug": "marrakech-desert",
+      "colors": {
+        "primary": "#92400E",
+        "secondary": "#D97706",
+        "accent": "#DC2626",
+        "background": "#FFFBEB",
+        "text": "#1C1917"
+      },
+      "font": "'Playfair Display', serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/marrakech-desert.svg",
+      "favicon": "/assets/favicons/marrakech-desert.ico",
+      "currency": "MAD",
+      "locale": "en",
+      "payment_description": "Marrakech Desert Trips — Booking payment"
+    },
+    "oncf-voyages.ma": {
+      "name": "ONCF Voyages",
+      "slug": "oncf-voyages",
+      "colors": {
+        "primary": "#1D4ED8",
+        "secondary": "#60A5FA",
+        "accent": "#EF4444",
+        "background": "#EFF6FF",
+        "text": "#1E293B"
+      },
+      "font": "'Roboto', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap",
+      "logo": "/assets/logos/oncf-voyages.svg",
+      "favicon": "/assets/favicons/oncf-voyages.ico",
+      "currency": "MAD",
+      "locale": "fr-MA",
+      "payment_description": "ONCF Voyages — Paiement de billet"
+    },
+    "ctm.ma": {
+      "name": "CTM",
+      "slug": "ctm",
+      "colors": {
+        "primary": "#B91C1C",
+        "secondary": "#EF4444",
+        "accent": "#FBBF24",
+        "background": "#FEF2F2",
+        "text": "#1C1917"
+      },
+      "font": "'Montserrat', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/ctm.svg",
+      "favicon": "/assets/favicons/ctm.ico",
+      "currency": "MAD",
+      "locale": "fr-MA",
+      "payment_description": "CTM — Paiement de voyage"
+    },
+    "supratours.ma": {
+      "name": "Supratours",
+      "slug": "supratours",
+      "colors": {
+        "primary": "#7C3AED",
+        "secondary": "#A78BFA",
+        "accent": "#14B8A6",
+        "background": "#F5F3FF",
+        "text": "#1E1B4B"
+      },
+      "font": "'Nunito', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/supratours.svg",
+      "favicon": "/assets/favicons/supratours.ico",
+      "currency": "MAD",
+      "locale": "fr-MA",
+      "payment_description": "Supratours — Paiement de billet"
+    },
+    "default": {
+      "name": "Travel Platform",
+      "slug": "default",
+      "colors": {
+        "primary": "#1E3A8A",
+        "secondary": "#3B82F6",
+        "accent": "#F59E0B",
+        "background": "#F8FAFC",
+        "text": "#1E293B"
+      },
+      "font": "'Inter', sans-serif",
+      "font_url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap",
+      "logo": "/assets/logos/default.svg",
+      "favicon": "/assets/favicons/default.ico",
+      "currency": "MAD",
+      "locale": "fr-MA",
+      "payment_description": "Paiement en ligne"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: bot/Dockerfile
+    container_name: whitelabel-admin-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - ./white-label:/app/white-label:ro
+      # Mount docker socket if you need to manage host services from the bot.
+      # For systemctl commands, the bot must run on the host or via SSH.
+      # Alternative: use SSH-based monitoring (see bot/services/server_monitor.py).
+    networks:
+      - bot-net
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  bot-net:
+    driver: bridge
