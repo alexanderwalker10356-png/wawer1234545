@@ -77,6 +77,7 @@ download_site() {
 
     mkdir -p "$dest"
 
+    set +e
     wget \
         --mirror \
         --convert-links \
@@ -103,6 +104,7 @@ download_site() {
         2>&1 | tee "$logfile"
 
     local status=${PIPESTATUS[0]}
+    set -e
 
     if [[ $status -eq 0 ]] || [[ $status -eq 8 ]]; then
         ok "Downloaded: ${domain} -> ${dest}"
@@ -132,11 +134,11 @@ postprocess_site() {
             -e "s|https\?://www\.${domain}/|/|g" \
             {} +
 
-    # Remove query strings from local file references in HTML
+    # Remove query strings from LOCAL file references only (not http/https URLs)
     find "$dest" -type f -name "*.html" \
         -exec sed -i \
-            -e 's|\(href="[^"?]*\)?[^"]*"|\1"|g' \
-            -e 's|\(src="[^"?]*\)?[^"]*"|\1"|g' \
+            -e 's|href="\([^"?:]*\)?[^"]*"|href="\1"|g' \
+            -e 's|src="\([^"?:]*\)?[^"]*"|src="\1"|g' \
             {} +
 
     ok "Post-processed: ${domain}"

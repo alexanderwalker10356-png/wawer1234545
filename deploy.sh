@@ -67,8 +67,10 @@ fi
 declare -A SERVER_IP SERVER_PORT SERVER_USER SERVER_AUTH
 
 while IFS='|' read -r domain ip port user auth; do
+    domain="${domain%%[[:space:]]}"
     [[ "$domain" =~ ^#.*$ ]] && continue
     [[ -z "$domain" ]] && continue
+    auth="${auth%%[[:space:]]}"
     SERVER_IP["$domain"]="$ip"
     SERVER_PORT["$domain"]="$port"
     SERVER_USER["$domain"]="$user"
@@ -127,8 +129,13 @@ remote_copy() {
         return 0
     fi
 
+    local ssh_inner="ssh ${SSH_OPTIONS} -p ${port}"
+    if [[ "${SERVER_AUTH[$domain]}" == "key" ]]; then
+        ssh_inner+=" -i ${SSH_KEY_PATH}"
+    fi
+
     rsync -avz --progress \
-        -e "ssh ${SSH_OPTIONS} -p ${port} -i ${SSH_KEY_PATH}" \
+        -e "$ssh_inner" \
         "$src" "${user}@${ip}:${dest}"
 }
 
