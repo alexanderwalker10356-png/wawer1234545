@@ -1,9 +1,6 @@
-"""Bot configuration loaded from environment variables."""
-
 from __future__ import annotations
 
 import os
-from pathlib import Path
 from dataclasses import dataclass, field
 
 from dotenv import load_dotenv
@@ -16,32 +13,44 @@ class Config:
     bot_token: str = field(default_factory=lambda: os.environ["BOT_TOKEN"])
     admin_id: int = field(default_factory=lambda: int(os.environ["ADMIN_TELEGRAM_ID"]))
 
-    # Payment gateway (CMI / Stripe / custom)
-    payment_gateway_url: str = field(
-        default_factory=lambda: os.environ.get("PAYMENT_GATEWAY_URL", "https://payment.example.com/api")
+    # Webhook
+    webhook_host: str = field(
+        default_factory=lambda: os.environ.get("WEBHOOK_HOST", "")
     )
-    payment_api_key: str = field(
-        default_factory=lambda: os.environ.get("PAYMENT_API_KEY", "")
+    webhook_path: str = field(
+        default_factory=lambda: os.environ.get("WEBHOOK_PATH", "/webhook")
     )
-    payment_secret: str = field(
-        default_factory=lambda: os.environ.get("PAYMENT_SECRET", "")
+    webapp_host: str = field(
+        default_factory=lambda: os.environ.get("WEBAPP_HOST", "0.0.0.0")
+    )
+    webapp_port: int = field(
+        default_factory=lambda: int(os.environ.get("WEBAPP_PORT", "8080"))
+    )
+    use_webhook: bool = field(
+        default_factory=lambda: os.environ.get("USE_WEBHOOK", "false").lower() == "true"
     )
 
-    # Brands config
-    brands_json: Path = field(
-        default_factory=lambda: Path(
-            os.environ.get("BRANDS_JSON_PATH", "/app/white-label/brands.json")
-        )
+    # YooKassa
+    yookassa_shop_id: str = field(
+        default_factory=lambda: os.environ.get("YOOKASSA_SHOP_ID", "")
+    )
+    yookassa_secret_key: str = field(
+        default_factory=lambda: os.environ.get("YOOKASSA_SECRET_KEY", "")
     )
 
-    # Monitored servers (comma-separated list of host:port or IPs)
-    server_hosts: list[str] = field(
-        default_factory=lambda: [
-            h.strip()
-            for h in os.environ.get("SERVER_HOSTS", "localhost").split(",")
-            if h.strip()
-        ]
+    # Telegram Stars provider token (empty string = Telegram Stars)
+    stars_provider_token: str = field(
+        default_factory=lambda: os.environ.get("STARS_PROVIDER_TOKEN", "")
     )
+
+    # Database
+    db_path: str = field(
+        default_factory=lambda: os.environ.get("DB_PATH", "/app/data/bot.db")
+    )
+
+    @property
+    def webhook_url(self) -> str:
+        return f"{self.webhook_host}{self.webhook_path}"
 
 
 config = Config()

@@ -1,11 +1,11 @@
-"""Admin-only access middleware for aiogram 3."""
+"""Admin-only access middleware."""
 
 from __future__ import annotations
 
 from typing import Any, Awaitable, Callable
 
 from aiogram import BaseMiddleware
-from aiogram.types import TelegramObject, Message, CallbackQuery
+from aiogram.types import TelegramObject, Message, CallbackQuery, PreCheckoutQuery
 
 from bot.config import config
 
@@ -17,6 +17,10 @@ class AdminOnlyMiddleware(BaseMiddleware):
         event: TelegramObject,
         data: dict[str, Any],
     ) -> Any:
+        # PreCheckoutQuery must always be answered (Telegram requirement)
+        if isinstance(event, PreCheckoutQuery):
+            return await handler(event, data)
+
         user = None
         if isinstance(event, Message):
             user = event.from_user
@@ -25,9 +29,9 @@ class AdminOnlyMiddleware(BaseMiddleware):
 
         if user is None or user.id != config.admin_id:
             if isinstance(event, Message):
-                await event.answer("⛔ Доступ запрещён.")
+                await event.answer("Access denied.")
             elif isinstance(event, CallbackQuery):
-                await event.answer("⛔ Доступ запрещён.", show_alert=True)
+                await event.answer("Access denied.", show_alert=True)
             return None
 
         return await handler(event, data)
